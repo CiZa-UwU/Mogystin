@@ -29,18 +29,43 @@
     color: #414BA0;
     font-size: 24px;
 }
-#block1_btn{
+.block5_header{
+    color: #414BA0;
+    font-size: 70px;
+}
+.block5_text{
+    color: #414BA0;
+    font-size: 20px;
+}
+.block6_header{
+    color: #414BA0;
+    font-size: 36px;
+}
+.block_btn{
     font-size: 32px;
     padding: 14px 45px 14px 45px;
     margin-top: 32px;
     border-radius: 21px;
     color: white;
+    border-width: 0;
     background: linear-gradient(260.12deg, #94579E 10.89%, #F354B4 45.77%);
 }
-#block1_btn:hover{
+.block_btn:hover{
     background: linear-gradient(260.12deg, #603168 10.89%, #E42498 45.77%);
 }
-#block1_btn:active{
+.block_btn:active{
     box-shadow: 0 21px 56px #EF9ECE;
     border-radius: 21px;
+}
+
+#toTop {
+    width:96px;
+    height:96px;
+    position:fixed;
+    bottom:30px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+}
+#toTop:hover{
+    background: linear-gradient(217.16deg, rgba(248, 250, 158, 0.6) 15.28%, rgba(203, 8, 235, 0.174) 69.56%);
 }
