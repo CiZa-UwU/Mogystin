@@ -6,6 +6,11 @@
     color: #414BA0;
     font-size: 25px;
 }
+#underline_enter{
+    background: url(img/underline_enter.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 .nav_linc:hover{
     color: #122BFB;
 }
@@ -33,9 +38,27 @@
     color: #414BA0;
     font-size: 70px;
 }
+#underline_res{
+    background: url(img/Underline_result.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 .block5_text{
     color: #414BA0;
     font-size: 20px;
+}
+.blur{
+    position: absolute;
+    top: 1000px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-width: 300px;
+    min-height: 300px;
+    z-index: -1;
+    background-image: url('img/Gradient_Fifth_block.svg');
+    background-position:left center;
+    background-repeat: no-repeat;
 }
 .block6_header{
     color: #414BA0;
@@ -57,15 +80,37 @@
     box-shadow: 0 21px 56px #EF9ECE;
     border-radius: 21px;
 }
+footer{
+    background-color: #414BA0;
+}
+footer .nav_linc{
+    color: white;
+    font-family: Arial;
+    text-decoration: underline;
+    font-size: 12px;
 
+}
+.bi-whatsapp{
+    color: white;
+    font-size: 1.2em;
+}
+#footer_header{
+    font-size: 20px;
+    text-decoration: none;
+}
 #toTop {
+    border-radius: 50%;
     width:96px;
     height:96px;
     position:fixed;
-    bottom:30px; /* отступ кнопки от нижнего края страницы*/
-    right:10px;
+    bottom:115px; /* отступ кнопки от нижнего края страницы*/
+    right:20px;
     cursor:pointer;
 }
 #toTop:hover{
     background: linear-gradient(217.16deg, rgba(248, 250, 158, 0.6) 15.28%, rgba(203, 8, 235, 0.174) 69.56%);
+}
+#toTop:active{
+    background: linear-gradient(217.16deg, rgba(248, 250, 158, 0.6) 15.28%, rgba(203, 8, 235, 0.174) 69.56%);
+    box-shadow: 0px 7px 7px 0px rgba(34, 60, 80, 0.2);
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69d541dd-ec22-4608-ac01-6c69ea9ee12c" name="Changes" comment="" />
+    <list default="true" id="5b7d9182-9dac-49e2-a5da-b680670898c2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +13,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_blur-bg.zip/Заблуреный фон/css/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2IH6FarVbeVr77WTCzokMlXPAKL" />
+  <component name="ProjectId" id="2IRsU96U02o6BkMwbK9LjtrzzZA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,28 +39,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="69d541dd-ec22-4608-ac01-6c69ea9ee12c" name="Changes" comment="" />
-      <created>1669826060898</created>
+      <changelist id="5b7d9182-9dac-49e2-a5da-b680670898c2" name="Changes" comment="" />
+      <created>1670155747930</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669826060898</updated>
-      <workItem from="1669826063529" duration="485000" />
-      <workItem from="1669899293148" duration="7153000" />
+      <updated>1670155747930</updated>
+      <workItem from="1670155748940" duration="1056000" />
+      <workItem from="1670159414325" duration="10984000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
