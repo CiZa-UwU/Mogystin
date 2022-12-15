@@ -36,6 +36,26 @@
         }
     </script>
 
+        <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/css?family=Comfortaa:regular,700"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" /> -->
+        <link
+                rel="stylesheet"
+                href="https://bootstraptema.ru/plugins/font-awesome/4-4-0/font-awesome.min.css"
+        />
+        <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+        />
+        <script src="https://bootstraptema.ru/plugins/jquery/jquery-1.11.3.min.js"></script>
+        <script
+                type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+        ></script>
+
     </head>
     <header>
         <div class="container mb-1 pb-5">
@@ -58,24 +78,347 @@
         </div>
     </header>
     <body>
-        <div class="container pt-3 pb-5">
+        <div class="container pt-2 pb-5">
             <div class="row align-items-center pt-5">
                 <div class="col-xl-6">
                     <p class="block1_text1 my-0">Думай. Планируй. Достигай!</p>
                     <h1 class="block1_header my-0 py-0">МОГУ</h1>
                     <h1 class="block1_header my-0 py-0">СТИН</h1>
                     <p class="block1_text2 my-0">Помощник в достижении целей.</p>
-                    <button type="button" class="block_btn">Присоединится</button>
+                    <button type="button" class="block_btn">Присоединиться</button>
                 </div>
                 <div class="col-xl-6 text-end">
                     <img src="img/First_block_Mogustin_group.png">
                 </div>
             </div>
         </div>
-        <div class="container pt-5 mt-5">
+        <script src="./script.js"></script>
+        <div class="container pt-5 pb-5">
+            <section class="help">
+                <div class="help_container">
+                    <h1 class="block2_header pb-2">
+                        Поможем выбрать&nbsp;<span id="underline_block2">цель</span>
+                    </h1>
+
+                    <p class="block5_text">
+                        Самый первый этап. Здесь ты определяешь цель, которую хочешь
+                        достичь. Чтобы тебе было проще, мы добавили разные категории, исходя
+                        из которых ты чётко сформулируешь желаемое.
+                    </p>
+                </div>
+            </section>
+            <!-- Swiper -->
+            <script>
+                $(document).ready(function () {
+                    $("#news-slider").owlCarousel({
+                        items: 3,
+                        itemsDesktop: [1199, 3],
+                        itemsDesktopSmall: [1000, 2],
+                        itemsMobile: [650, 1],
+                        pagination: false,
+                        navigationText: false,
+                        autoPlay: true,
+                    });
+                });
+            </script>
+
+            <br /><br /><br />
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="news-slider" class="owl-carousel text-center">
+                        <div class="post-slide">
+                            <div class="post-review text-center">
+                                <h3 class="post-title"><a href="#">Играть на гитаре</a></h3>
+                            </div>
+                            <div class="post-img">
+                                <img
+                                        src="img/gitar.jpg"
+                                        alt="Bootstrap Blocks Owl Carousel 1"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="post-slide">
+                            <div class="post-review">
+                                <h3 class="post-title"><a href="#">Выучить английский</a></h3>
+                            </div>
+                            <div class="post-img">
+                                <img
+                                        src="img/eanglish.jpg"
+                                        alt="Bootstrap Blocks Owl Carousel 2"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="post-slide">
+                            <div class="post-review">
+                                <h3 class="post-title">
+                                    <a href="#">Переехать в другую страну</a>
+                                </h3>
+                            </div>
+                            <div class="post-img">
+                                <img
+                                        src="img/dvorr.jpg"
+                                        alt="Bootstrap Blocks Owl Carousel 3"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="post-slide">
+                            <div class="post-review">
+                                <h3 class="post-title"><a href="#">Бросить курить</a></h3>
+                            </div>
+                            <div class="post-img">
+                                <img
+                                        src="img/stop_smoking.svg"
+                                        alt="Bootstrap Blocks Owl Carousel 4"
+                                />
+                            </div>
+                        </div>
+                        <div class="post-slide">
+                            <div class="post-review">
+                                <h3 class="post-title"><a href="#">Переплыть Босфор</a></h3>
+                            </div>
+                            <div class="post-img">
+                                <img src="img/ship.jpg" alt="Bootstrap Blocks Owl Carousel 4" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./col-md-12 -->
+            </div>
+            <!-- ./row -->
+        </div>
+
+        <div class="container pt-5 mb-5">
+            <div class="row">
+                    <h1 class="block2_header">
+                        Реализовать
+                        <span class="realization_title-span">план</span> действий
+                    </h1>
+                    <div class="col-9">
+                        <h5 class="block3_text1 pt-5 pb-5">
+                            Всё большое строится из маленьких деталей, поэтому для достижения
+                            цели тебе нужно будет выполнять задачи, а наши напоминания и
+                            оповещения помогут тебе не забыть о них.
+                        </h5>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="realization_focus-title block3_header pb-2">Фокусировка на важном</h3>
+                    <p class="realization_focus-text block3_text2">
+                        Ненавязчивые напоминания помогут держать под контролем выполнение
+                        плана
+                    </p>
+                    <img class="realization_fix-img" src="img/progress.svg" alt="focus" />
+                </div>
+                <div class="col-6">
+                    <img class="realization_focus-img" src="img/focus.svg" alt="focus" />
+                    <h3 class="realization_fix-title block3_header pb-2">Фиксирование прогресса</h3>
+                    <p class="realization_fix-text block3_text2">
+                        Наглядный график всегда под рукой с возможностью регулирования
+                    </p>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="container pb-5 pt-5">
+                <div class="align-items-start-block4">
+                    <h2 class="block4_header">
+                        <span id="underline_enter2">Рефлексировать</span>
+                    </h2>
+                </div>
+                <div class="bl-4">
+                    <p class="block4_text1">
+                        Взгляд на себя со стороны, осмысление своих эмоций,
+                    </p>
+                    <p class="block4_text2">действий, опыта.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="container">
+                    <div class="container_g">
+                        <div
+                                class="panel active"
+                                style="background-image: url(./img/client0.jpg)"
+                                data-handler="one"
+                        ></div>
+                        <div
+                                class="panel"
+                                style="background-image: url(./img/client1.jpg)"
+                                data-handler="two"
+                        ></div>
+                        <div
+                                class="panel"
+                                style="background-image: url(./img/client2.jpg)"
+                                data-handler="three"
+                        ></div>
+                        <div
+                                class="panel"
+                                style="background-image: url(./img/client3.jpg)"
+                                data-handler="four"
+                        ></div>
+                        <div
+                                class="panel"
+                                style="background-image: url(./img/client4.jpg)"
+                                data-handler="five"
+                        ></div>
+                        <div
+                                class="panel"
+                                style="background-image: url(./img/client5.jpg)"
+                                data-handler="six"
+                        ></div>
+                    </div>
+                </div>
+                <div class="panel-descr panel-descr_active" data-target="one">
+                    <div class="descr-for-me">
+                        <p>
+                            «Много задач есть в работе, но хочется уделять время для хобби.
+                            Могустин аккуратно напоминал мне о нем»
+                        </p>
+                    </div>
+
+                    <div class="descr-my-plan">
+                        <div class="container-descr">
+                            <h2 class="descr-my-goal">Цель: Собрать урожай перцев</h2>
+                            <p class="descr-username">Огородников Петр</p>
+                            <p class="descr-data">05.05.2022</p>
+                            <p class="descr-informat">
+                                Узнал когда лучше высаживать перцы, заказал семена, в среду
+                                должны приехать
+                            </p>
+                            <p class="descr-data">25.05.2022</p>
+                            <p class="descr-informat">
+                                Высадил семена, буду пропалывать через день, <br> &ensp; напоминание
+                                поставил
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-descr" data-target="two">
+                    <div class="descr-for-me">
+                        <p>
+                            «Хотела держать в фокусе цель и проанализировать, что меня
+                            отвлекает»
+                        </p>
+                    </div>
+                    <div class="descr-my-plan">
+                        <div class="container-descr">
+                            <h2 class="descr-my-goal">Цель: Выучить испанский</h2>
+                            <p class="descr-username">Скорикова Алла</p>
+                            <p class="descr-data">09.09.2022</p>
+                            <p class="descr-informat">
+                                Написала себе план занятий, нашла репетитора
+                            </p>
+                            <p class="descr-data">10.09.2022</p>
+                            <p class="descr-informat">
+                                Занималась час с репититором, сделаю вечером домашку, перенесла
+                                встречу с подругой
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-descr" data-target="three">
+                    <div class="descr-for-me">
+                        <p>
+                            «Скептически отношусь к приложениям-помощникам.Обычно, много
+                            функций и пользуешься двумя-тремя. Могустин меня устроил по
+                            функционалу»
+                        </p>
+                    </div>
+                    <div class="descr-my-plan">
+                        <div class="container-descr">
+                            <h2 class="descr-my-goal">
+                                Цель: Бросить курить, заняться спортом
+                            </h2>
+                            <p class="descr-username">Смирнов Андрей</p>
+                            <p class="descr-data">01.12.2022</p>
+                            <p class="descr-informat">
+                                Первый день дался непросто, жую конфетки.
+                            </p>
+                            <p class="descr-data">02.12.2022</p>
+                            <p class="descr-informat">
+                                Второй день — хочется курить, хожу злой, коллеги <br> &ensp; курят
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-descr" data-target="four">
+                    <div class="descr-for-me">
+                        <p>«Интересно фиксировать свой прогресс, это придает сил»</p>
+                    </div>
+                    <div class="descr-my-plan">
+                        <div class="container-descr">
+                            <h2 class="descr-my-goal">Цель: Написать картину</h2>
+                            <p class="descr-username">Игнатова Вика</p>
+                            <p class="descr-data">13.11.2022</p>
+                            <p class="descr-informat">
+                                Купила холст, краски. Нашла референс, по которому хочу сделать.
+                            </p>
+                            <p class="descr-data">14.11.2022</p>
+                            <p class="descr-informat">
+                                Сделала набросок в карандаше, завтра сделаю первый <br>  &ensp; слой красок
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-descr" data-target="five">
+                    <div class="descr-for-me">
+                        <p>
+                            «Сервис прост в использовании, мне понравилось регулировать
+                            напоминания и выписывать свои мысли»
+                        </p>
+                    </div>
+                    <div class="descr-my-plan">
+                        <div class="container-descr">
+                            <h2 class="descr-my-goal">Цель: написать сценарий</h2>
+                            <p class="descr-username">Смехова Алика</p>
+                            <p class="descr-data">12.11.2022</p>
+                            <p class="descr-informat">
+                                В понедельник написала вступительную часть сценария, хочу
+                                продолжить в том же темпе
+                            </p>
+                            <p class="descr-data">15.11.2022</p>
+                            <p class="descr-informat">
+                                Сделала созвон с заказчиком, хочет внести правки <br> &ensp; из-за бюджета,
+                                буду переписывать
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-descr" data-target="six">
+                    <div class="descr-for-me">
+                        <p>
+                            «Могустин помог мне структурировать задачи, видеть свои ошибки и
+                            прогресc»
+                        </p>
+                    </div>
+                    <div class="descr-my-plan">
+                        <div class="container-descr">
+                            <h2 class="descr-my-goal">Цель: Гулять каждый день 30 минут</h2>
+                            <p class="descr-username">Кузнецов Алексей</p>
+                            <p class="descr-data">25.10.2022</p>
+                            <p class="descr-informat">
+                                Не успел погулять, заработался, нужно выходить пораньше с работы
+                            </p>
+                            <p class="descr-data">26.10.2022</p>
+                            <p class="descr-informat">
+                                Спланировал рабочий день, вышел вовремя, погулял <br> &ensp; целый час,
+                                настроение улучшилось.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-decoration"></div>
+        </section>
+        <div class="container mt-5">
             <div class="row align-items-start pt-5">
                 <div class="blur"></div>
-                <h1 class="block5_header">Самое приятное -<span id="underline_res"> реузультат</span> </h1>
+                <h1 class="block5_header">Самое приятное &mdash;<span id="underline_res"> результат</span> </h1>
             </div>
             <div class="row align-items-start pb-5">
                 <div class="col-xl-6 pt-2">
@@ -97,7 +440,7 @@
             </div>
             <div class="row pb-5">
                 <div class="col-xl-12 pb-5 text-center">
-                    <button type="button" class="block_btn">Присоединится</button>
+                    <button type="button" class="block_btn">Присоединиться</button>
                 </div>
             </div>
             <div class="row pt-5">
@@ -120,6 +463,7 @@
                 </div>
             </div>
         </footer>
+        <script src="./script.js"></script>
         <a href="#"><img id ="toTop" src="img/button_%20scroll%20up_hover.png"></a>
     </body>
 </html>

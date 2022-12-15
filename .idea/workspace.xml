@@ -13,6 +13,9 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_blur-bg.zip/Заблуреный фон/css/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -46,10 +49,26 @@
       <updated>1670155747930</updated>
       <workItem from="1670155748940" duration="1056000" />
       <workItem from="1670159414325" duration="10984000" />
+      <workItem from="1670518875295" duration="2354000" />
+      <workItem from="1670599978926" duration="994000" />
+      <workItem from="1670603550886" duration="3197000" />
+      <workItem from="1670615858715" duration="5717000" />
+      <workItem from="1671121894540" duration="315000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
